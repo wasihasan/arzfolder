@@ -1,0 +1,144 @@
+#WhatsApp {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+    color: wheat;
+    background-color: lightseagreen;
+}
+
+.header  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header > p {
+    display: flex;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: row;
+}
+
+.paragraph > p {
+    display: flex;
+    margin-right: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: wheat;
+}
+
+ 
+
+.chats {
+    display: flex;
+    flex-direction: row;
+}
+
+.chats > p {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.groups {
+    display: flex;
+    flex-direction: row;
+}
+
+.groups > p {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.status {
+    display: flex;
+    flex-direction: row;
+}
+
+.status > p {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.calls {
+    display: flex;
+    flex-direction: row;
+}
+
+.calls > p {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.computer {
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex: 1;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.p {
+    color: white;
+}
+
+.content4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.container{
+    flex: 1;
+}
+.container > i{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 10px;
+}
